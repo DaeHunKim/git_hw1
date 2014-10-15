@@ -1,0 +1,65 @@
+html{color:#000;
+	background:#FFF; 
+	background-image:url('./images/배경이미지.jpg');
+	padding:20px 0;
+	font: 16px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;}
+caption,th{margin-bottom:10px;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+abbr,acronym{border:0;font-variant:normal;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:80%;}
+
+/* layout */
+#wrap {width:960px; margin:0 auto;background-color:#fff;}
+
+/* Basic */
+h1{font-size:22px;font-weight:bold;line-height:28px;}
+h2 {font-size:18px;line-height:24px;font-weight:bold;}
+table {width:100%;}
+tr{text-align:center;}
+th{text-align:center;font-weight:bold;background-color:#80E1C9;}
+td{text-align:center;width:15%;border:1px solid gray;background-color:#E9E5B2;}
+li{margin-bottom:10px;}
+a{text-decoration:none;color:#282828;letter-spacing:10px;}
+
+
+/* header */
+#header {width:100%; height:200px;clear:both;
+	background-color:#DCFFDC;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-radius: 15px 15px 0 0;
+}
+#header_left{width:400px; float:left;display:inline-block;color:#FFF;
+	padding:10px; height:150px;}
+#header_right{width:400px; float:right;text-align:center;
+	padding:10px; height:150px;}
+#line {width:100%; height:15px;background-color:#1EDDFF;}
+
+
+/* content */
+#content {width:100%;clear:both;background-color:#fff;}
+#content_image{float:left;padding:30px;background-color:#fff;}
+#content_main{width:100%;float:left;text-align:left;background-color:#fff;}
+#content_timetable{margin:auto;}
+#line2 {width:100%; height:1px;background-color:black;}
+
+/* navbar */
+#navbar {width:960px; height:50px;background-color:#DCFFDC;clear:both;}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;list-style:none;}
+#navbar ul li a{
+	color:#fff; background-color:#1EDDFF;
+	display:block;
+	width:150px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/50px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
+#navbar ul li a.selected {background-color:#0064FF;}
+#navbar ul li a:hover {background-color:#000069;}
