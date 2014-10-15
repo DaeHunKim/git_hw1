@@ -6,9 +6,15 @@ html{color:#000;
 }
 body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
 table{border-collapse:collapse;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
 caption,th{margin-bottom:10px;}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
 abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
 input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
 input,button,textarea,select{font-size:80%;}
 
@@ -37,11 +43,12 @@ a{text-decoration:none;color:#282828;letter-spacing:10px;}
 	padding:10px; height:150px;}
 #header_right{width:400px; float:right;text-align:center;
 	padding:10px; height:150px;}
-#line {width:100%; height:15px;background-color:#1EDDFF;}
+#line {width:100%; height:10px;background-color:#1EDDFF;}
 
 
 /* content */
 #content {width:100%;clear:both;background-color:#fff;}
+#content_form {width:100%; margin-left:23px; clear:both;background-color:#fff;}
 #content_image{float:left;padding:30px;background-color:#fff;}
 #content_main{width:100%;float:left;text-align:left;background-color:#fff;}
 #content_timetable{margin:auto;}
